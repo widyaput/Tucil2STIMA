@@ -9,17 +9,17 @@ Algoritma decrease and conquer yang digunakan pada program ini adalah DFS modifi
 4. Lakukan proses ini hingga setiap node berhasil dikunjungi
 5. Reverse vector/array order yang telah berisi semua node dengan urutan terbalik, sehingga urutannya menjadi sesuai yang kita inginkan.
 
-##Requirement program yang dibutuhkan untuk mengcompile: 
+## Requirement program yang dibutuhkan untuk mengcompile: 
 Minimal c++11 dengan compiler g++4.9
 
-##Cara mengcompile :
+## Cara mengcompile :
 Buka folder src, lalu ketikkan command
 ```bash
 g++ -o [namaoutput] 13519105-main.cpp 13519105-modul.cpp
 ```
 Maka akan terbentuk file binary baru dengan nama [namaoutput]
 
-##Cara menjalankan binary program
+## Cara menjalankan binary program
 Dari hasil compile di atas, ketikkan command
 ```bash
 ./[namaoutput]
