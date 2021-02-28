@@ -9,8 +9,9 @@ Algoritma decrease and conquer yang digunakan pada program ini adalah DFS modifi
 4. Lakukan proses ini hingga setiap node berhasil dikunjungi
 5. Reverse vector/array order yang telah berisi semua node dengan urutan terbalik, sehingga urutannya menjadi sesuai yang kita inginkan.
 
-## Requirement program yang dibutuhkan untuk mengcompile: 
-Minimal c++11 dengan compiler g++4.9
+## Requirement yang dibutuhkan program: 
+Minimal c++11 dengan compiler g++4.
+
 Penulisan file uji txt yang benar agar program tidak error
 
 ## Cara mengcompile :
