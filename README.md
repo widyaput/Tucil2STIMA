@@ -34,14 +34,14 @@ Cara di atas dilakukan dalam OS linux, untuk windows tinggal double click file b
 ## Input file teks
 Ketika program telah dijalankan, program akan meminta nama file input yang akan diuji. Perhatikan bahwa:
 1. File teks harus ditaruh dalam folder test
-2. Setiap baris dalam file teks yang akan diuji tidak boleh ada yang kosong (entah itu di awal, tengah atau akhir). Karena dalam mengambil setiap baris, author mengimplementasikan algoritma getline yang lebih baik daripada ifstream.good(). Hanya saja kekurangan getline adalah fungsi tersebut tidak bisa membaca baris yang kosong.
-Jika didapati error semacam ini
+2. Setiap baris dalam file teks yang akan diuji tidak boleh ada yang kosong (entah itu di awal, tengah atau akhir). Karena dalam mengambil setiap baris, author mengimplementasikan algoritma getline yang lebih baik daripada ifstream.good(). Hanya saja kekurangan getline adalah fungsi tersebut tidak bisa membaca baris yang kosong. Jika didapati error semacam ini
 ```bash
 terminate called after throwing an instance of 'std::out_of_range'
   what():  basic_string::substr: __pos (which is 18446744073709551615) > this->size() (which is 2)
 Aborted (core dumped)
 ```
 Maka perlu dicek lagi apakah dalam file teks terdapat baris kosong. Biasanya dalam teks editor tertentu baris kosong tidak terlihat, jadi coba edit file teks dalam beberapa editor.
+
 3. Setiap baris berisi hubungan mata kuliah dan prerequisitenya yang dipisahkan dengan tanda koma (",") dan diakhiri dengan tanda titik (".")
 
 ## Author
